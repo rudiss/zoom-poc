@@ -2,7 +2,7 @@
   "name": "websdk-sample-react",
   "version": "1.9.1",
   "author": "Tommy Gaessler",
-  "homepage": "",
+  "homepage": "/rudis/zoom-poc",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
