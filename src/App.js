@@ -10,12 +10,12 @@ ZoomMtg.prepareJssdk();
 function App() {
 
   // setup your signature endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
-  var signatureEndpoint = 'http://localhost:4000'
+  var signatureEndpoint = 'https://hyper-zoom-server.herokuapp.com/'
   var apiKey = '4LkvaRn-SNyEczjNOWwqAw'
   var meetingNumber = '81417480439'
   var role = 0
-  var leaveUrl = 'http://localhost:3000'
-  var userName = 'React'
+  var leaveUrl = 'https://hyper-zoom-server.herokuapp.com/'
+  var userName = 'Aluno'
   var userEmail = ''
   var passWord = ''
 
@@ -71,9 +71,8 @@ function App() {
   return (
     <div className="App">
       <main>
-        <h1>Zoom WebSDK Sample React</h1>
-
-        <button onClick={getSignature}>Join Meeting</button>
+        <h1>Hyper 01</h1>
+        <button onClick={getSignature}>Join the class now</button>
       </main>
     </div>
   );
